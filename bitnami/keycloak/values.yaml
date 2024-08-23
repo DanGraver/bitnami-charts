@@ -384,7 +384,7 @@ livenessProbe:
 ##
 readinessProbe:
   enabled: true
-  initialDelaySeconds: 30
+  initialDelaySeconds: 90
   periodSeconds: 10
   timeoutSeconds: 1
   failureThreshold: 3
